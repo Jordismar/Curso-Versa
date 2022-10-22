@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F5F5F5;
+}
+
+#geral {
+  width: 1065px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.titulo1 {
+  color: #0091b6;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 26pt;
+  margin-bottom: 12px;
+}
+
+#topo {
+  width: 1065px;
+  height: 100px;
+  background: #F5F5F5;
+  border-bottom: 1px solid #c2bfbf;
+}
+
+#solar {
+  width: 1065px;
+  height: 350px;
+  background: #F5F5F5;
+  border-bottom: 1px solid #c2bfbf;
+  float: left;
+}
+
+#produto {
+  width: 1065px;
+  height: 350px;
+  background-color: #F5F5F5;
+  border-bottom: 1px solid #c2bfbf;
+  float: left;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+#energia {
+  width: 1065px;
+  height: 350px;
+  background-color: #F5F5F5;
+  border-bottom: 1px solid #c2bfbf;
+  float: left;
+  padding-top: 40px;
+}
+
+#pedido {
+  width: 1065px;
+  height: 350px;
+  background-color: violet;
+  border-bottom: 1px solid #c2bfbf;
+  float: left;
+  padding-top: 40px;
+}
+
+#rodape {
+  width: 1065px;
+  height: 100px;
+  background-color: rebeccapurple;
+  float: left;
+}
+
+#links {
+  float: right;
+}
+
+#listLink {
+  list-style: none;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+#listLink li {
+  display: inline;
+  padding-right: 12px;
+}
+
+#listLink li a {
+  text-decoration: none;
+  font-size: 12pt;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+#listLink li a:hover {
+  color: #0091b6;
+  /* text-decoration: underline; */
+  border-bottom: 1px solid #0091b6;
+}
+
+#artigoTec {
+  width: 50%;
+  height: 350px;
+  padding: 40px 12px 20px 0px;
+  float: left;
+}
+
+#imagem {
+  float: right;
+  width: 45%;
+  height: 350px;
+  text-align: center;
+}
+
+#imagem img {
+  width: 70%;
+}
+
+.paragrafo {
+  text-align: justify;
+  font-size: 13pt;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#contBotao {
+  margin: 50px 20px;
+}
+
+#botaoLerMais {
+  width: 200px;
+  font-size: 20px;
+  background-color: #0091b6;
+  color: white;
+  padding: 3px;
+  border: none;
+  border-radius: 5px;
+}
+
+#botaoLerMais:hover {
+  background-color: #80bfcf;
+  cursor: pointer;
+}
+
+#prod {
+  background-color: #F5F5F5;
+  height: 350px;
+  align-items: center;
+  margin-left: 60px;
+}
+
+.contProduto {
+  width: 280px;
+  margin-right: 20px;
+  float: left;
+  text-align: center;
+  border: 1px #11718a solid;
+  border-radius: 10px;
+}
+
+.contTitulo {
+  background-color: #11718a;
+  padding: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  border-bottom: 1px solid #014050;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.contDescricao {
+  background-color: #0091b6;
+  padding: 8px;
+  border-bottom: 1px solid #014050;
+}
+
+.contDescricao p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18pt;
+}
+
+.infoProduto {
+  background-color: #d3d1d1;
+  height: 183px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.tProduto {
+  background-color: #F5F5F5;
+  padding: 0px 0px 20px 0px;
+  width: 100%;
+  float: left;
+}
+
+#imagem2 {
+  width: 40%;
+  float: left;
+}
+
+#imagem2 img {
+  width: 450px;
+}
+
+#contEnergia {
+  background-color: #F5F5F5;
+  width: 50%;
+  float: right;
+}
+
+#contEnergia p {
+  text-align: justify;
+  font-size: 13pt;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#listInput {
+  list-style: none;
+  list-style-type: none;
+}
+
+#listInput li {
+  margin-bottom: 10px;
+}
+
+.paragrafo1 {
+  font-size: 13pt;
+  font-family: Arial, Helvetica, sans-serif;
+}

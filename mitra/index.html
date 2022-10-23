@@ -19,7 +19,7 @@
                         <!-- <img href="images/logo.png"> -->
                     </div>
                     <div>
-                        <h1>Mitra</h1>
+                        <h1 class="titulo1">Mitra</h1>
                     </div>
                 </div>
                 <nav id="links">
@@ -129,12 +129,12 @@
                 <h2 class="titulo1">Faça seu pedido</h2>
             </div>
             <div>
-                <div class="paragrafo" style="background-color: red;">
+                <div class="paragrafo">
                     Você pode pedir um determinado produto ou serviço preenchendo o formulario abaixo:
                 </div>
                 <div>
                     <form>
-                        <div style="background-color: rgb(88, 88, 226); float: left; margin-top: 20px;">
+                        <div class="contForm">
                             <ul id="listInput">
                                 <li>
                                     <input>
@@ -154,19 +154,33 @@
                                 </li>
                             </ul>
                         </div>
-                        <div style="background-color: rgb(168, 226, 88); float: right;">
-                            <input>
-                            <label class="paragrafo1">Endereço</label>
-                            <input>
-                            <label class="paragrafo1">Numero</label>
-                            <input>
-                            <label class="paragrafo1">Cidade</label>
-                            <input>
-                            <label class="paragrafo1">CEP</label>
-
+                        <div class="contForm">
+                            <ul id="listInput">
+                                <li>
+                                    <input>
+                                    <label class="paragrafo1">Endereço</label>
+                                </li>
+                                <li>
+                                    <input>
+                                    <label class="paragrafo1">Numero</label>
+                                </li>
+                                <li>
+                                    <input>
+                                    <label class="paragrafo1">Cidade</label>
+                                </li>
+                                <li>
+                                    <input>
+                                    <label class="paragrafo1">CEP</label>
+                                </li>
+                            </ul>
                         </div>
-                        <div style="float: right;">
-                            <button>Enviar</button>
+                        <div id="contButon">
+                            <button>
+                                <div id="iconButon">></div>
+                                <div id="textbutton">
+                                    Enviar
+                                </div>
+                            </button>
                         </div>
                     </form>
                 </div>
@@ -174,7 +188,22 @@
         </section>
 
         <footer id="rodape">
-
+            <nav class="rodo">
+                <ul id="listLink">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Produto</a></li>
+                    <li><a href="#">Energia Solar</a></li>
+                    <li><a href="#">Pedido</a></li>
+                </ul>
+            </nav>
+            <div class="rodo">
+                @ Todos os direitos reservados - Mitra
+            </div>
+            <div class="rodo">
+                <img src="images/facebook.png">
+                <img style="width: 40px;" src="images/twitter.png">
+                <img src="images/vimeo.png">
+            </div>
         </footer>
     </div>
 </body>

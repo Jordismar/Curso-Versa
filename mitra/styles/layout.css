@@ -58,7 +58,7 @@ body {
 #pedido {
   width: 1065px;
   height: 350px;
-  background-color: violet;
+  background-color: #F5F5F5;
   border-bottom: 1px solid #c2bfbf;
   float: left;
   padding-top: 40px;
@@ -67,8 +67,9 @@ body {
 #rodape {
   width: 1065px;
   height: 100px;
-  background-color: rebeccapurple;
+  background-color: #F5F5F5;
   float: left;
+  padding: 60px 20px 20px 20px;
 }
 
 #links {
@@ -95,7 +96,6 @@ body {
 
 #listLink li a:hover {
   color: #0091b6;
-  /* text-decoration: underline; */
   border-bottom: 1px solid #0091b6;
 }
 
@@ -212,16 +212,72 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#listInput {
+.contForm {
+  float: left;
+  margin-right: 12px;
+  margin-top: 20px;
+}
+
+.contForm ul {
   list-style: none;
   list-style-type: none;
 }
 
-#listInput li {
+.contForm ul li {
   margin-bottom: 10px;
+}
+
+.contForm ul li input {
+  font-size: 20px;
+  border: 2px #beced2 solid;
+  border-radius: 50px;
+
 }
 
 .paragrafo1 {
   font-size: 13pt;
   font-family: Arial, Helvetica, sans-serif;
+  margin-left: 7px;
+}
+
+#contButon {
+  float: left;
+  margin-top: 120px;
+  margin-left: 50px;
+}
+
+#contButon button {
+  font-size: 20px;
+  background-color: #235ecc;
+  border-radius: 20px;
+  padding: 5px 10px 5px 10px;
+  align-items: center;
+}
+
+#iconButon {
+  background-color: #7a97cd;
+  font-size: 10px;
+  border-radius: 50px;
+  color: aliceblue;
+  border: solid 1px #beced2;
+  float: left;
+  padding: 2px;
+  margin-right: 5px;
+  margin-top: 2px;
+}
+
+#textbutton {
+  float: left;
+  color: aliceblue
+}
+
+.rodo {
+  float: left;
+  width: 350px;
+  text-align: center;
+}
+
+.rodo img {
+  width: 30px;
+  margin-right: 60px;
 }

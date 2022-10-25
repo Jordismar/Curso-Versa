@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#geral {
+  width: 100%;
+  height: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#cabe {
+  margin-bottom: 10px;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
+
+.corpo {
+  background-color: red;
+  margin-bottom: 10px;
+  width: 100%;
+  height: auto;
+}
+
+#rodape {
+  background-color: rebeccapurple;
+  width: 100%;
+  height: 150px;
+}
+
+#fundoImg {
+  background-image: url(../images/logoImagem.jpeg);
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  z-index: 2;
+
+}
+
+#logo {
+  z-index: 3;
+}
+
+#contLink {
+  background-color: black;
+  width: 100%;
+  height: 70px;
+}
+
+#contLink ul {
+  list-style: none;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  line-height: 70px;
+}
+
+#contLink ul li {
+  display: inline;
+}
+
+#contLink ul li a {
+  text-decoration: none;
+  font-size: 16pt;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+}
+
+#contLink ul li a:hover {
+  color: #3f349e;
+  border-bottom: 1px solid #3f349e;
+}
+
+.contDicas {
+  background-color: #3f349e;
+  text-align: center;
+  align-content: center;
+  width: 200px;
+  height: auto;
+}
+
+.contDicas img {
+  width: 100px;
+  border-radius: 100%;
+}

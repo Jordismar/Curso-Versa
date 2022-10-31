@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#topo {
+  background-image: linear-gradient(#E9E5C0, #F5F4D6);
+  display: flex;
+}
+
+#logo {
+  width: 16.7%;
+  height: 800px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#tomate {
+  background-color: #CD4008;
+  width: 16.7%;
+  height: 800px;
+}
+
+#kiwi {
+  background-color: #9FB41B;
+  width: 16.7%;
+  height: 800px;
+}
+
+#dados {
+  margin-left: 20px;
+  background-color: black;
+  width: 35%;
+  height: 800px;
+  display: flex;
+}
+
+#login {
+  background-color: #E9E6C3;
+  width: 100%;
+  height: 200px;
+}
+
+#rodape {
+  background-color: #2D2D2D;
+  width: 100%;
+  height: 100px;
+}
+
+#infs {
+  color: white;
+  margin: -20px 10px 0px 10px;
+}
+
+#infs h2 {
+  margin-bottom: 8px;
+}
+
+#infs h5 {
+  margin-bottom: 20px;
+}
+
+#infs p {
+  text-align: justify;
+}
+
+#botao {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+
+#botao button {
+  padding: 3px;
+}
+
+#tomate figure {
+  background-image: url(../images/tomate.jpg);
+  height: 336px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#kiwi figure {
+  background-image: url(../images/kiwi.jpg);
+  height: 336px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#sobre {
+  background-image: url(../images/sobre.gif);
+  width: 47px;
+  height: 92px;
+  display: flex;
+  justify-content: center;
+  line-height: 120px;
+}
+
+#sobre a {
+  text-decoration: none;
+  color: black;
+}
+
+#home {
+  background-image: url(../images/homeBg.gif);
+  width: 47px;
+  height: 92px;
+  display: flex;
+  justify-content: center;
+  line-height: 120px;
+}
+
+#home a {
+  text-decoration: none;
+  color: black;
+}
+
+
+#ultimoEventos {
+  color: white;
+  padding: 10px;
+}
+
+#ultimoEventos h2 {
+  margin-bottom: 8px;
+}
+
+#ultimoEventos h5 {
+  margin-bottom: 20px;
+  color: #E0E05A;
+}
+
+#ultimoEventos p {
+  text-align: justify;
+}
+
+#links {
+  width: 50%;
+  background-color: white;
+}
+
+#links ul {
+  padding-left: 30px;
+  list-style: none;
+  list-style-type: square;
+}
+
+#link {
+  border-bottom: dotted 1px;
+  margin-bottom: 4px;
+}
+
+#ultimoLink {
+  border-bottom: none;
+}
+
+#links ul li a {
+  text-decoration: none;
+  color: black;
+}

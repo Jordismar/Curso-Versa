@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(103, 103, 224);
+  padding: 30px;
+}
+
+#cabe {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  background-color: cyan;
+  margin-bottom: 30px;
+}
+
+#aside {
+  width: 25%;
+  background-color: chartreuse;
+  height: 600px;
+  text-align: center;
+  line-height: 600px;
+  float: left;
+  margin-bottom: 30px;
+
+}
+
+#article {
+  margin-left: 30px;
+  float: left;
+  width: 73%;
+  height: 600px;
+  text-align: center;
+  background-color: orange;
+  margin-bottom: 30px;
+}
+
+#article h1 {
+  margin-top: 280px;
+}
+
+#article figure {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  height: 250px;
+
+}
+
+#footer {
+  background-color: aqua;
+  text-align: center;
+  line-height: 100px;
+  height: 100px;
+  width: 100%;
+  float: left;
+}

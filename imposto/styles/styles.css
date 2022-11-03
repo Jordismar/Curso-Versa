@@ -62,8 +62,28 @@ select {
 
 table {
     width: 100%;
+    border-bottom: 3px solid #5e74b9;
+    margin-bottom: 2px;
 }
 
 th {
-    font-size: 8pt;
+    font-size: 9pt;
+    text-align: start;
+}
+
+td {
+    font-size: 9pt;
+}
+
+button {
+    width: 100%;
+    border: none;
+    background-color: #A3A5A4;
+    padding: 2px 0px;
+}
+
+#tabela h2 {
+    margin: 15px;
+    color: #5e74b9;
+    font-weight: bold;
 }

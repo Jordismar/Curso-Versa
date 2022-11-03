@@ -4,11 +4,12 @@
 }
 
 #topo {
-  background-image: linear-gradient(#E9E5C0, #F5F4D6);
+  background-color: #F8F7DB;
   display: flex;
 }
 
 #logo {
+  background-image: linear-gradient(#E8E5C2 10%, #F8F7DB 30%);
   width: 16.7%;
   height: 800px;
   display: flex;
@@ -29,16 +30,18 @@
 
 #dados {
   margin-left: 20px;
-  background-color: black;
   width: 35%;
   height: 800px;
   display: flex;
+  flex-direction: column;
 }
 
 #login {
   background-color: #E9E6C3;
   width: 100%;
   height: 200px;
+  display: flex;
+  padding-top: 20px;
 }
 
 #rodape {
@@ -77,6 +80,7 @@
 #tomate figure {
   background-image: url(../images/tomate.jpg);
   height: 336px;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: flex-end;
 }
@@ -86,6 +90,7 @@
   height: 336px;
   display: flex;
   justify-content: flex-end;
+  background-repeat: no-repeat;
 }
 
 #sobre {
@@ -137,7 +142,7 @@
 
 #links {
   width: 50%;
-  background-color: white;
+  height: 200px;
 }
 
 #links ul {
@@ -158,4 +163,129 @@
 #links ul li a {
   text-decoration: none;
   color: black;
+}
+
+#propaganda {
+  margin-left: 20px;
+}
+
+#noticias {
+  margin: 12px 0px;
+  display: flex;
+  height: auto;
+  flex-direction: column;
+}
+
+#noticias figure {
+  display: flex;
+}
+
+#noticias img {
+  width: 60px;
+}
+
+#noticias h1 {
+  color: #9C3411;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#noticias nav {
+  background-color: #FEFDEB;
+}
+
+#noticias ul {
+  list-style: none;
+  list-style-type: none;
+
+}
+
+#noticias ul li {
+  border: solid 2px #F8F7DB;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+}
+
+#noticias ul li img {
+  width: 20px;
+}
+
+#ideias nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+#ideias button {
+  background-color: #FDFDFD;
+  border: none;
+}
+
+#newsletter {
+  background-image: url(../images/newletter.jpg);
+  background-repeat: no-repeat;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#newsletter label {
+  font-size: 15pt;
+  font-weight: bold;
+}
+
+#newsletter input {
+  text-align: center;
+}
+
+#newsletter button {
+  background-color: #CB4005;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+}
+
+#cara {
+  width: 40%;
+  height: 180px;
+  margin-left: 10%;
+}
+
+#caraTitulo {
+  display: flex;
+}
+
+#caraTitulo img {
+  margin-right: 12px;
+}
+
+#caraCont p {
+  color: #9FB41B;
+}
+
+#caraB {
+  display: flex;
+  justify-content: end;
+}
+
+#caraB button {
+  background-color: #CB4005;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+}
+
+#contato {
+  width: 50%;
+  margin-left: 20px;
+}
+#log{
+  width: 50%;
+}
+#cabeLo{
+  background-color: white;
 }

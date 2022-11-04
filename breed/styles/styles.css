@@ -3,15 +3,29 @@
   padding: 0;
 }
 
+#geral {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1125px;
+  height: auto;
+}
+
+#cima {
+  width: 100%;
+  height: auto;
+  background-image: linear-gradient(#E8E5C2 10%, #F8F7DB 30%);
+}
+
 #topo {
   background-color: #F8F7DB;
   display: flex;
+  height: auto;
 }
 
 #logo {
   background-image: linear-gradient(#E8E5C2 10%, #F8F7DB 30%);
   width: 16.7%;
-  height: 800px;
+  height: auto;
   display: flex;
   justify-content: flex-end;
 }
@@ -207,6 +221,11 @@
   padding: 2px;
 }
 
+#noticias ul li a {
+  text-decoration: none;
+  color: black;
+}
+
 #noticias ul li img {
   width: 20px;
 }
@@ -229,6 +248,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 12px;
 }
 
 #newsletter label {
@@ -282,10 +302,104 @@
 #contato {
   width: 50%;
   margin-left: 20px;
+  display: flex;
 }
-#log{
+
+#log {
   width: 50%;
+  height: 190px;
+  border: 1px solid #dbd593;
 }
-#cabeLo{
+
+#cabeLo {
   background-color: white;
+  display: flex;
+  height: auto;
+  padding: 8px;
+}
+
+#cabeLo img {
+  width: 23px;
+  height: auto;
+}
+
+#cabeLo h2 {
+  margin-left: 10px;
+}
+
+#contato form {
+  display: flex;
+  flex-direction: column;
+  background-color: #F8F7DB;
+  height: 150px;
+
+}
+
+#contFormI {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contato form input {
+  width: 80%;
+}
+
+#contFormB {
+  display: flex;
+  justify-content: end;
+  padding-right: 12px;
+  margin-top: 10px;
+}
+
+#contato form button {
+  background-color: #CB4005;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  width: 20%;
+}
+
+#tele {
+  background-image: url(../images/fones.jpg);
+  background-repeat: no-repeat;
+  width: 37%;
+  height: 150px;
+  margin-left: 12px;
+  display: flex;
+  justify-content: end;
+}
+
+#tele h2 {
+  margin-top: 12px;
+}
+
+footer {
+  width: 100%;
+  height: 81px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(#252314, #343434);
+}
+
+footer ul {
+  list-style: none;
+  list-style-type: square;
+}
+
+footer ul li {
+  display: inline;
+  margin-left: 4px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+footer h5 {
+  color: #697627;
 }

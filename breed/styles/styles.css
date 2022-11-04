@@ -33,13 +33,13 @@
 #tomate {
   background-color: #CD4008;
   width: 16.7%;
-  height: 800px;
+  height: auto;
 }
 
 #kiwi {
   background-color: #9FB41B;
   width: 16.7%;
-  height: 800px;
+  height: auto;
 }
 
 #dados {
@@ -75,10 +75,12 @@
 
 #infs h5 {
   margin-bottom: 20px;
+  color: #e67c4f;
 }
 
 #infs p {
   text-align: justify;
+  color: #e67c4f;
 }
 
 #botao {
@@ -89,6 +91,9 @@
 
 #botao button {
   padding: 3px;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
 }
 
 #tomate figure {
@@ -101,7 +106,7 @@
 
 #kiwi figure {
   background-image: url(../images/kiwi.jpg);
-  height: 336px;
+  height: 330px;
   display: flex;
   justify-content: flex-end;
   background-repeat: no-repeat;
@@ -141,17 +146,15 @@
   padding: 10px;
 }
 
-#ultimoEventos h2 {
-  margin-bottom: 8px;
-}
-
 #ultimoEventos h5 {
-  margin-bottom: 20px;
   color: #E0E05A;
+  margin: 10px 0px;
 }
 
 #ultimoEventos p {
   text-align: justify;
+  margin-bottom: 10px;
+  color: #E0E05A;
 }
 
 #links {

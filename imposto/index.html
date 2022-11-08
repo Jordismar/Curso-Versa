@@ -18,8 +18,8 @@
         </header>
         <section id="formulario">
             <form action="">
-                <input type="text" placeholder="Empregado">
-                <input type="text" placeholder="Base de Cálculo Iposto Renda (R$)">
+                <input type="text" id="nome" placeholder="Empregado">
+                <input type="text" id="base" placeholder="Base de Cálculo Iposto Renda (R$)">
                 <select name="mes" id="mes">
                     <option value="0">Selecione</option>
                     <option value="1">Janeiro</option>
@@ -75,8 +75,9 @@
                     <td>869,36</td>
                 </tr>
             </table>
-            <button>Calcular IR</button>
-            <h2>Valor do IR calculado: 0</h2>
+            <button id="calcula">Calcular IR</button>
+            <h2 id="funcionario">Funcionario: ---</h2>
+            <h2 id="calculado">Valor do IR calculado: R$ 0,00</h2>
         </section>
     </div>
     <script src="scripts/index.js"></script>

@@ -5,6 +5,14 @@ var calcula = document.getElementById('calcula');
 var resultado = document.getElementById('calculado');
 var funcionario = document.getElementById('funcionario');
 
+base.addEventListener('change', function () {
+    if (isNaN(base.value)) {
+        alert("Informe um numero");
+        base.value = '';
+        base.focus();
+    }
+})
+
 calcula.addEventListener('click', function () {
 
     let ir;

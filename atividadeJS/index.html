@@ -9,49 +9,85 @@
 </head>
 
 <body>
-    <div>
-        <h1>Questão 1</h1>
-        <br>
-        <label for="">Digite o endereço: </label>
-        <input id="endereco" type="text">
-        <button id="ir">IR</button>
-    </div>
-    <div>
-        <h1>Questão 2</h1>
-        <br>
-        <label for="">Escolha um site: </label>
-        <select name="site" id="site">
-            <option value="0">Selecione</option>
-            <option value="1">Globo</option>
-            <option value="2">Terra</option>
-            <option value="3">Uol</option>
-        </select>
-    </div>
-    <div>
-        <h1>Questão 3</h1>
-        <br>
-        <label for="">Usuario: </label>
-        <input id="usuario" type="text"><br><br>
-        <label for="">Senha: </label>
-        <input id="senha" type="password"><br><br>
-        <button id="entrar">Entrar</button>
-    </div>
-    <div>
-        <h1>Questão 4</h1>
-        <br>
-        <label for="">Valor: </label>
-        <input id="valor" type="number"><br><br>
-        <label for="">Percentual: </label>
-        <input id="percentual" type="number">
-    </div>
-    <div>
-        <h1>Questão 5</h1>
-        <br>
-        <label for="">Valor: </label>
-        <input id="valor" type="number"><br><br>
-
-        <p>Escolha a condição de pagamento:</p>
-    </div>
+        <div style="display: flex; justify-content: space-evenly;">
+            <div>
+                <div>
+                    <h1>Questão 1</h1>
+                    <br>
+                    <label for="">Digite o endereço: </label>
+                    <input id="endereco" type="text">
+                    <button id="ir">IR</button>
+                </div>
+                <div>
+                    <h1>Questão 2</h1>
+                    <br>
+                    <label for="">Escolha um site: </label>
+                    <select name="site" id="site">
+                        <option value="0">Selecione</option>
+                        <option value="1">Globo</option>
+                        <option value="2">Terra</option>
+                        <option value="3">Uol</option>
+                    </select>
+                </div>
+                <div>
+                    <h1>Questão 3</h1>
+                    <br>
+                    <label for="">Usuario: </label>
+                    <input id="usuario" type="text"><br><br>
+                    <label for="">Senha: </label>
+                    <input id="senha" type="password"><br><br>
+                    <button id="entrar">Entrar</button>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h1>Questão 4</h1>
+                    <br>
+                    <label for="">Valor: </label>
+                    <input id="valor" type="number"><br><br>
+                    <label for="">Percentual: </label>
+                    <input id="percentual" type="number">
+                </div>
+                <div>
+                    <h1>Questão 5</h1>
+                    <br>
+                    <label for="">Valor: </label>
+                    <input id="valo" type="number"><br><br>
+                    <p>Escolha a condição de pagamento:</p>
+                    <label for="">A vista</label>
+                    <input id="avista" type="radio">
+                    <label for="">A prazo</label>
+                    <input id="prazo" type="radio">
+                </div>
+            </div>
+        </div>
+        <div style="display: flex; justify-content: space-evenly;">
+            <div>
+                <h1>Questão 6</h1>
+                <br>
+                <label for="">Valor Diaria: </label>
+                <input id="valorD" type="number"><br><br>
+                <label for="">Quantidade de dias: </label>
+                <input id="quantidadeDias" type="number">
+                <p>Opções:</p>
+                <input id="banheiro" type="checkbox">
+                <label for="">Banheiro (R$ 30,00)</label><br>
+                <input id="banheira" type="checkbox">
+                <label for="">Banheira (R$ 100,00)</label><br>
+                <input id="tv" type="checkbox">
+                <label for="">TV (R$ 40,00)</label><br>
+                <input id="net" type="checkbox">
+                <label for="">Internet (R$ 80,00)</label><br><br>
+                <button id="cal">Calcular</button>
+            </div>
+            <div>
+                <h1>Questão 7</h1>
+                <br>
+                <label for="">Comente sobre a corrupção no Brasil</label><br>
+                <textarea placeholder="Digite o texto aqui" id="comentario"></textarea><br>
+                <button id="redi">Enviar</button>
+            </div>
+        </div>
     <script src="scripts/index.js"></script>
 </body>
 

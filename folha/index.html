@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Folha</title>
+</head>
+<body>
+    <div id="geral">
+        <header>
+            <img src="images/topo.jpg" alt="">
+        </header>
+        <section>
+            <form action="">
+                <input type="text" name="" placeholder="Empregado" id="nome">
+                <input type="number" name="" placeholder="Quantidade de filhos menores 14 anos ou inválidos" id="filhos">
+                <input type="number" name="" placeholder="Salário Contribuição" id="salario">
+            </form>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Salário-Contribuição</th>
+                        <th>Cota do Salário Família</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Até R$ R$ 806,80</td>
+                        <td>R$ 41,37 por filho</td>
+                    </tr>
+                    <tr>
+                        <td>Entre R$ 806,81 e R$ 1.212,64</td>
+                        <td>R$ 29,16 por filho</td>
+                    </tr>
+                    <tr>
+                        <td>Mais de R$ 1.211,64</td>
+                        <td>Não há</td>
+                    </tr>
+                </tbody>
+            </table>
+            <button id="calcular">Calcular</button>
+            <h2 id="result">Salário Família: R$ 0,00</h2>
+        </section>
+    </div>
+    <script src="scripts/index.js"></script>
+</body>
+</html>

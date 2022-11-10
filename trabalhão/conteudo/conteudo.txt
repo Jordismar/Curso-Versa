@@ -4,10 +4,10 @@ Os melhores ingredientes para a produzir a melhor pizza
 
 Home
 Bem Vindo
-Serviços
-Cardápio
-Comentários
-Endereço
+Serviï¿½os
+Cardï¿½pio
+Comentï¿½rios
+Endereï¿½o
 
 Prove a Pizza Italiana
 
@@ -17,31 +17,31 @@ Mais
 
 Bem Vindo
 
-Na Pizza Italiana você vai provar o melhor sabor das pizzas do mundo, com o toque verdadeiramente italiano.
+Na Pizza Italiana vocï¿½ vai provar o melhor sabor das pizzas do mundo, com o toque verdadeiramente italiano.
 
-Restaurante, conhecido pelas pizzas, agora aposta também em novos pratos para atender outros segmentos de público, sobretudo no horário do almoço.
-O ano é 1994. Os irmãos e empreendedores Leopoldo, André e Breno Gama inauguram a primeira unidade do Armazém Guimarães em Maceió, cidade onde os três nasceram e cresceram. Anos mais tarde, o que surgiu como uma pizzaria de forno a lenha iria se tornar uma das maiores referências da região em gastronomia italiana.
-Reconhecida como a melhor pizzaria de Maceió por diversas vezes seguidas, o caminho rumo ao Recife aconteceu de forma natural, principalmente por causa do efervescente cenário gastronômico da capital pernambucana. Assim, em 2004, os irmãos inauguraram a primeira loja do Armazém Guimarães fora de Alagoas, no bairro de Boa Viagem, ponto de referência em termos de boa culinária.
+Restaurante, conhecido pelas pizzas, agora aposta tambï¿½m em novos pratos para atender outros segmentos de pï¿½blico, sobretudo no horï¿½rio do almoï¿½o.
+O ano ï¿½ 1994. Os irmï¿½os e empreendedores Leopoldo, Andrï¿½ e Breno Gama inauguram a primeira unidade do Armazï¿½m Guimarï¿½es em Maceiï¿½, cidade onde os trï¿½s nasceram e cresceram. Anos mais tarde, o que surgiu como uma pizzaria de forno a lenha iria se tornar uma das maiores referï¿½ncias da regiï¿½o em gastronomia italiana.
+Reconhecida como a melhor pizzaria de Maceiï¿½ por diversas vezes seguidas, o caminho rumo ao Recife aconteceu de forma natural, principalmente por causa do efervescente cenï¿½rio gastronï¿½mico da capital pernambucana. Assim, em 2004, os irmï¿½os inauguraram a primeira loja do Armazï¿½m Guimarï¿½es fora de Alagoas, no bairro de Boa Viagem, ponto de referï¿½ncia em termos de boa culinï¿½ria.
 
-Serviços
+Serviï¿½os
 
 Restaurante
 Venha saborear as melhores pizzas em um ambiente familiar e tradicionalmente acolhedor.
 
 Em sua Casa
-Ligue e peça nossas pizzas em casa, com atendimento rápido e profissional. A melhor comida para você e sua família no aconchego do seu lar.
+Ligue e peï¿½a nossas pizzas em casa, com atendimento rï¿½pido e profissional. A melhor comida para vocï¿½ e sua famï¿½lia no aconchego do seu lar.
 
 Forno a Lenha
-Todos os nossos pratos são desenvolvidos em forno a lenha. Também oferecemos o serviço de cozimento a lenha a outras empresas ou clientes em datas especiais como Natal e Ano Novo.
+Todos os nossos pratos sï¿½o desenvolvidos em forno a lenha. Tambï¿½m oferecemos o serviï¿½o de cozimento a lenha a outras empresas ou clientes em datas especiais como Natal e Ano Novo.
 
 Festas
-Venha fazer sua feste e comemoração conosco. Estamos pronto para melhor atender as suas necessidades e oferecer o que há de melhor na culinária italiana.
+Venha fazer sua feste e comemoraï¿½ï¿½o conosco. Estamos pronto para melhor atender as suas necessidades e oferecer o que hï¿½ de melhor na culinï¿½ria italiana.
 
 
-Cardápio
+Cardï¿½pio
 
-    Armazém Guimarães
-    Molho de tomate, lombo defumado, requeijão tipo catupiry, champignon e azeitonas
+    Armazï¿½m Guimarï¿½es
+    Molho de tomate, lombo defumado, requeijï¿½o tipo catupiry, champignon e azeitonas
     R$ 50
 
     PRESUNTO
@@ -53,11 +53,11 @@ Cardápio
     R$ 25
 
     TOSCANA
-    Molho de tomate, calabresa moída com cebola, parmesão e azeitonas
+    Molho de tomate, calabresa moï¿½da com cebola, parmesï¿½o e azeitonas
     R$ 30
 
-    ALHO E ÓLEO
-    Molho de tomate, mussarela e alho dourado no azeite e parmesão
+    ALHO E ï¿½LEO
+    Molho de tomate, mussarela e alho dourado no azeite e parmesï¿½o
     R$ 50
 
     PALMITO
@@ -77,7 +77,7 @@ Cardápio
     R$ 50
 
     CHAMPIGNON
-    Molho de tomate, mussarela, champignon e parmesão
+    Molho de tomate, mussarela, champignon e parmesï¿½o
     R$ 62
 
     SALAME
@@ -85,7 +85,7 @@ Cardápio
     R$ 25
 
     SALAME CATUPIRY
-    Molho de tomate, salame italiano, requeijão tipo catupiry e azeitonas
+    Molho de tomate, salame italiano, requeijï¿½o tipo catupiry e azeitonas
     R$ 30
 
     LOMBINHO
@@ -93,15 +93,15 @@ Cardápio
     R$ 50
 
     LOMBO CATUPIRY
-    Molho de tomate, lombo defumado, requeijão tipo catupiry e azeitonas
+    Molho de tomate, lombo defumado, requeijï¿½o tipo catupiry e azeitonas
     R$ 62
 
     NAPOLITANA
-    Molho de tomate, mussarela, tomate fatiado e parmesão
+    Molho de tomate, mussarela, tomate fatiado e parmesï¿½o
     R$ 25
 
     MARGHERITA
-    Molho de tomate, mussarela, folhas de manjericão e parmesão
+    Molho de tomate, mussarela, folhas de manjericï¿½o e parmesï¿½o
     R$ 30
 
     MUSSARELA
@@ -117,15 +117,15 @@ Cardápio
     R$ 25
 
     DOIS QUEIJOS
-    Molho de tomate, mussarela, requeijão tipo catupiry e azeitonas
+    Molho de tomate, mussarela, requeijï¿½o tipo catupiry e azeitonas
     R$ 30
 
     QUATRO QUEIJOS
-    Molho de tomate, mussarela, provolone, gorgonzola e requeijão tipo catupiry.
+    Molho de tomate, mussarela, provolone, gorgonzola e requeijï¿½o tipo catupiry.
     R$ 50
 
     MILANO
-    Molho de tomate, calabresa moída com cebola e palmito coberto com mussarela
+    Molho de tomate, calabresa moï¿½da com cebola e palmito coberto com mussarela
     R$ 62
 
     SICILIANA
@@ -133,37 +133,37 @@ Cardápio
     R$ 25
 
     PORTUGUESA
-    Molho de tomate, mussarela, presunto, cebola, pimentão, ovos e azeitonas
+    Molho de tomate, mussarela, presunto, cebola, pimentï¿½o, ovos e azeitonas
     R$ 30
 
 Mostrar Mais
 Mostrar Menos
 
-Comentários
+Comentï¿½rios
 
 Maria Polas
-"As pizzas e massas servidas no restaurante são excelentes e o ambiente e o atendimento de primeira. Recomendo a todos os meus amigos e conhecidos. "
+"As pizzas e massas servidas no restaurante sï¿½o excelentes e o ambiente e o atendimento de primeira. Recomendo a todos os meus amigos e conhecidos. "
     
 Julia Fernandes
-"Quem visita Maceió precisa conhecer e se deliciar com as várias opções do cardápio. Pizza Italiana é viciante."
+"Quem visita Maceiï¿½ precisa conhecer e se deliciar com as vï¿½rias opï¿½ï¿½es do cardï¿½pio. Pizza Italiana ï¿½ viciante."
 
 Roberto Mantras
-"Prefiro o delivery que me proporciona pratos excepcionais com um tempo de entrega rápido."
+"Prefiro o delivery que me proporciona pratos excepcionais com um tempo de entrega rï¿½pido."
 
 
-Endereço
+Endereï¿½o
 
     Rua Dep. Rubens Canuto,234
     Ponta Verde
-    Maceió - AL - Brazil
+    Maceiï¿½ - AL - Brazil
     +55 82 99982-5318
 
 Popular
 
-    Conheça Maceió
+    Conheï¿½a Maceiï¿½
     Viage pelo Nordeste
-    Atrações turísticas
-    Guia Gastronômico
+    Atraï¿½ï¿½es turï¿½sticas
+    Guia Gastronï¿½mico
 
 Detalhes
 
@@ -172,4 +172,4 @@ Detalhes
     Politica de Privacidade
     Contato
 
-© 2016 Pizza Italiana. Todos os direitos reservados | Design by W3layouts
+ï¿½ 2016 Pizza Italiana. Todos os direitos reservados | Design by W3layouts

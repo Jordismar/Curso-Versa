@@ -3,10 +3,405 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: titulos;
+    src: url(../fonts/OleoScript-Regular.ttf);
+}
+
+@font-face {
+    font-family: descricao;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
 #cabe {
     width: 100%;
     height: 400px;
     background-image: url(../images/1.png);
     background-repeat: no-repeat;
-    /* background-size: cover; */
+    background-size: cover;
+    background-color: #eeeeee;
+
+}
+
+#teste {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.267);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+
+}
+
+#tituloTopo {
+    color: white;
+    font-family: titulos;
+    background-color: #AEE3EF;
+    width: 40%;
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 0.1em 0.1em 0.2em #8fb1b8;
+    letter-spacing: 6px;
+}
+
+#subtitulo {
+    color: white;
+    font-family: descricao;
+    margin-top: 20px;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+#cabe nav {
+    margin-top: 150px;
+}
+
+#cabe nav ul {
+    list-style: none;
+    list-style-type: none;
+}
+
+#cabe nav ul li {
+    border-right: 2px solid rgba(255, 255, 255, 0.4);
+    display: inline;
+    padding: 10px 30px;
+}
+
+#cabe nav ul li a {
+    text-shadow: 0.1em 0.1em 0.2em black;
+    text-decoration: none;
+    color: white;
+    font-family: descricao;
+}
+
+#bemVindo {
+    background-color: rgb(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#prove {
+    background-color: white;
+    margin-top: -100px;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#prove h1 {
+    font-family: titulos;
+    color: rgb(0, 0, 0, .3);
+    font-size: 30pt;
+    letter-spacing: 2px;
+}
+
+#prove h4 {
+    font-family: descricao;
+    letter-spacing: 6px;
+    margin-bottom: 20px;
+}
+
+#prove button {
+    padding: 5px 18px;
+    background-color: white;
+    border-radius: 6px;
+    border: 1.5px solid black;
+}
+
+#bemVindo header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+
+#bemVindo header h1 {
+    font-family: titulos;
+    font-size: 30pt;
+    letter-spacing: 2px;
+}
+
+#bemVindo header p {
+    font-family: descricao;
+    font-size: 12pt;
+}
+
+#bemVindo article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 84%;
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+#bemVindo figure {
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.contImg {
+    border: white 7px solid;
+    margin: 0px 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.imagemBem {
+    width: 100%;
+}
+
+#bemVindo article p {
+    font-family: descricao;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+
+#servico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#servico h1 {
+    margin-top: 50px;
+    font-family: titulos;
+    font-size: 30pt;
+    letter-spacing: 2px;
+    margin-bottom: 100px;
+}
+
+#contSerIco {
+    display: flex;
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+.contBio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 27%;
+    margin: 0px 30px;
+}
+
+.contIc {
+    border: 1px solid rgb(0, 0, 0, .3);
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(45deg);
+}
+
+.contIc img {
+    transform: rotate(-45deg);
+    width: 40%;
+    opacity: 0.2;
+}
+
+.contBio h2 {
+    margin-top: 50px;
+    font-family: titulos;
+    font-weight: 100;
+}
+
+.contBio p {
+    font-family: descricao;
+    line-height: 25px;
+    font-size: 11pt;
+    margin-top: 10px;
+}
+
+#cardapio {
+    background-color: rgb(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cardapio h1 {
+    margin-top: 50px;
+    font-family: titulos;
+    font-size: 30pt;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+
+#cardapio article {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+.coluna {
+    width: 40%;
+}
+
+.contPizza {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.contPizza img {
+    width: 80%;
+}
+
+.descri {
+    width: 45%;
+}
+
+.descri h3 {
+    font-family: titulos;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.descri p {
+    font-family: descricao;
+    font-size: 11pt;
+    color: #85B5C6;
+}
+
+.line {
+    width: 30%;
+    border-top: solid 1px #85B5C6;
+    margin-top: 8px;
+}
+
+.val {
+    width: 10%;
+    margin-left: 20px;
+}
+
+.val h3 {
+    font-family: descricao;
+}
+
+#botoes {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+#botoes button {
+    width: 10%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 15px;
+    background-color: rgba(0, 0, 0, 0.01);
+    border: 1px rgba(0, 0, 0, 0.5) solid;
+}
+
+#botoes p {
+    font-family: descricao;
+    width: 80%;
+    margin: 7px 10px;
+}
+
+#botoes i {
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    width: 20%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#coment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#coment h1 {
+    margin-top: 50px;
+    font-family: titulos;
+    font-size: 30pt;
+    letter-spacing: 2px;
+    margin-bottom: 100px;
+}
+
+#coment article {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.cardComent {
+    width: 70%;
+    display: flex;
+}
+
+.contImgComent {
+    border-radius: 100%;
+    padding: 5px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 11%;
+    margin-right: 30px;
+}
+
+.cardComent img {
+    border-radius: 100%;
+    width: 100%;
+}
+
+.cardComent h2 {
+    font-family: titulos;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 12px;
+}
+
+.cardComent p {
+    font-family: descricao;
+    font-size: 10pt;
+}
+
+footer {
+    background-color: #575757;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 70px;
+}
+
+footer h1{
+    font-family: titulos;
+    font-weight: 100;
+    font-size: 25pt;
+    margin-bottom: 10px;
+    color: #AEE3EF;
+}
+#ender p{
+    font-family: descricao;
+    margin-bottom: 10px;
+    color: white;
+}
+footer nav ul {
+    list-style: none;
+    list-style-type: none;
+}
+footer nav ul li {
+    padding: 10px 30px;
+}
+footer nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: descricao;
 }

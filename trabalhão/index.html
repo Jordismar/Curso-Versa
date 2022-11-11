@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/tablet.css">
     <title>Pizza Italiana</title>
 </head>
 
@@ -68,37 +69,41 @@
     <section id="servico">
         <h1>Serviços</h1>
         <div id="contSerIco">
-            <div class="contBio">
-                <div class="contIc">
-                    <img src="images/usuario.png" alt="">
+            <article>
+                <div class="contBio">
+                    <div class="contIc">
+                        <img src="images/usuario.png" alt="">
+                    </div>
+                    <h2>Restaurante</h2>
+                    <p>Venha saborear as melhores pizzas em um ambiente familiar e tradicionalmente acolhedor.</p>
                 </div>
-                <h2>Restaurante</h2>
-                <p>Venha saborear as melhores pizzas em um ambiente familiar e tradicionalmente acolhedor.</p>
-            </div>
-            <div class="contBio">
-                <div class="contIc">
-                    <img src="images/casa.png" alt="">
+                <div class="contBio">
+                    <div class="contIc">
+                        <img src="images/casa.png" alt="">
+                    </div>
+                    <h2>Em sua Casa</h2>
+                    <p>Ligue e peça nossas pizzas em casa, com atendimento rápido e profissional. A melhor comida para você
+                        e sua família no aconchego do seu lar.</p>
                 </div>
-                <h2>Em sua Casa</h2>
-                <p>Ligue e peça nossas pizzas em casa, com atendimento rápido e profissional. A melhor comida para você
-                    e sua família no aconchego do seu lar.</p>
-            </div>
-            <div class="contBio">
-                <div class="contIc">
-                    <img src="images/fogo.png" alt="">
+            </article>
+            <article>
+                <div class="contBio">
+                    <div class="contIc">
+                        <img src="images/fogo.png" alt="">
+                    </div>
+                    <h2>Forno a Lenha</h2>
+                    <p>Todos os nossos pratos são desenvolvidos em forno a lenha. Também oferecemos o serviço de cozimento a
+                        lenha a outras empresas ou clientes em datas especiais como Natal e Ano Novo.</p>
                 </div>
-                <h2>Forno a Lenha</h2>
-                <p>Todos os nossos pratos são desenvolvidos em forno a lenha. Também oferecemos o serviço de cozimento a
-                    lenha a outras empresas ou clientes em datas especiais como Natal e Ano Novo.</p>
-            </div>
-            <div class="contBio">
-                <div class="contIc">
-                    <img src="images/coracao.png" alt="">
+                <div class="contBio">
+                    <div class="contIc">
+                        <img src="images/coracao.png" alt="">
+                    </div>
+                    <h2>Festas</h2>
+                    <p>Venha fazer sua feste e comemoração conosco. Estamos pronto para melhor atender as suas necessidades
+                        e oferecer o que há de melhor na culinária italiana.</p>
                 </div>
-                <h2>Festas</h2>
-                <p>Venha fazer sua feste e comemoração conosco. Estamos pronto para melhor atender as suas necessidades
-                    e oferecer o que há de melhor na culinária italiana.</p>
-            </div>
+            </article>
         </div>
     </section>
     <section id="cardapio">
@@ -471,35 +476,40 @@
         </article>
     </section>
     <footer>
-        <article id="ender">
-            <h1>Endereço</h1>
-            <p>Rua Dep. Rubens Canuto,234</p>
-            <p>Ponta Verde</p>
-            <p>Maceió - AL - Brazil</p>
-            <p>+55 82 99982-5318</p>
-        </article>
-        <nav>
-            <h1>Popular</h1>
-            <ul>
-                <li><a href="#">Conheça Maceió</a></li>
-                <li><a href="#">Viage pelo Nordeste</a></li>
-                <li><a href="#">Atrações turísticas</a></li>
-                <li><a href="#">Guia Gastronómico</a></li>
-            </ul>
-        </nav>
-        <nav>
-            <h1>Detalhes</h1>
-            <ul>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Trabalhe Conosco</a></li>
-                <li><a href="#">Politica de Privacidade</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
-        <article>
-            <p>2016 Pizza Italiana. Todos os direitos
-                reservados | Design by <a href="">W3layouts</a></p>
-        </article>
+        <div class="um">
+            <article id="ender">
+                <h1>Endereço</h1>
+                <p>Rua Dep. Rubens Canuto, 234</p>
+                <p>Ponta Verde</p>
+                <p>Maceió - AL - Brazil</p>
+                <p>+55 82 99982-5318</p>
+            </article>
+            <nav>
+                <h1>Popular</h1>
+                <ul>
+                    <li><a href="#">Conheça Maceió</a></li>
+                    <li><a href="#">Viage pelo Nordeste</a></li>
+                    <li><a href="#">Atrações turísticas</a></li>
+                    <li><a href="#">Guia Gastronómico</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="um">
+            <nav>
+                <h1>Detalhes</h1>
+                <ul>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Trabalhe Conosco</a></li>
+                    <li><a href="#">Politica de Privacidade</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+            <article id="direitos">
+                <p>© 2016 Pizza Italiana. Todos os direitos
+                    reservados | Design by <a href="">W3layouts</a></p>
+                <img src="images/icons.png" alt="">
+            </article>
+        </div>
     </footer>
 
     <script src="scripts/index.js"></script>

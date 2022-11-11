@@ -1,0 +1,114 @@
+@media only screen and (max-width: 640px) and (min-width: 321px) {
+    #tituloTopo {
+        width: 60%;
+        padding: 10px 0px;
+    }
+
+    #subtitulo {
+        margin-bottom: 40px;
+    }
+
+    #cabe nav ul {
+        text-align: center;
+    }
+
+    #cabe nav ul li {
+        border-right: none;
+        display: inline-flex;
+        padding: 10px 30px;
+    }
+
+    #prove {
+        margin-top: -90px;
+        padding: 30px 60px;
+    }
+
+    #prove h1 {
+        font-size: 24pt;
+        letter-spacing: 1px;
+    }
+
+    #bemVindo header {
+        text-align: center;
+        margin-top: 20px;
+        width: 95%;
+    }
+
+    #bemVindo article {
+        width: 95%;
+        margin-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .contImg {
+        margin: 0px 10px;
+    }
+
+    #contSerIco {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    #contSerIco article {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+
+
+    .contBio {
+        width: 100%;
+        height: 50%;
+        padding-top: 50px;
+    }
+
+    .contIc {
+        width: 65%;
+    }
+
+    .contBio p {
+        font-family: descricao;
+        line-height: 22px;
+        font-size: 11pt;
+        margin-top: 10px;
+    }
+
+    #cardapio article {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .coluna {
+        width: 90%;
+    }
+
+    #botoes button {
+        width: 20%;
+    }
+
+    #coment h1 {
+        margin-bottom: 50px;
+    }
+
+    .cardComent {
+        width: 95%;
+    }
+
+    .contImgComent {
+        width: 15%;
+    }
+
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 0px;
+    }
+
+    .um {
+        width: 100%;
+        margin: 20px 0px;
+    }
+}

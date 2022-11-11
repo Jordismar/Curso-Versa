@@ -15,7 +15,6 @@
 
 #cabe {
     width: 100%;
-    height: 400px;
     background-image: url(../images/1.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,14 +45,14 @@
 
 #subtitulo {
     color: white;
-    font-family: descricao;
+    font-family: titulos;
     margin-top: 20px;
-    font-style: italic;
     letter-spacing: 2px;
+    margin-bottom: 100px;
 }
 
 #cabe nav {
-    margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 #cabe nav ul {
@@ -108,6 +107,7 @@
     padding: 5px 18px;
     background-color: white;
     border-radius: 6px;
+    color: rgba(0, 0, 0, 0.5);
     border: 1.5px solid black;
 }
 
@@ -181,12 +181,19 @@
     margin-bottom: 50px;
 }
 
+#contSerIco article {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly
+}
+
+
 .contBio {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 27%;
+    width: 40%;
     margin: 0px 30px;
 }
 
@@ -210,6 +217,7 @@
     margin-top: 50px;
     font-family: titulos;
     font-weight: 100;
+    color: rgb(0, 0, 0, 0.5);
 }
 
 .contBio p {
@@ -262,6 +270,7 @@
     font-family: titulos;
     letter-spacing: 1px;
     font-weight: 500;
+    color: rgb(0, 0, 0, .4);
 }
 
 .descri p {
@@ -283,6 +292,7 @@
 
 .val h3 {
     font-family: descricao;
+    color: rgb(0, 0, 0, .4);
 }
 
 #botoes {
@@ -375,33 +385,57 @@
 footer {
     background-color: #575757;
     width: 100%;
-    height: 500px;
     display: flex;
     justify-content: space-evenly;
-    padding: 70px;
+    padding: 70px 0px;
+}
+.um{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
 }
 
-footer h1{
+footer h1 {
     font-family: titulos;
     font-weight: 100;
     font-size: 25pt;
     margin-bottom: 10px;
     color: #AEE3EF;
 }
-#ender p{
+
+#ender p {
     font-family: descricao;
     margin-bottom: 10px;
     color: white;
 }
+
 footer nav ul {
     list-style: none;
     list-style-type: none;
 }
+
 footer nav ul li {
-    padding: 10px 30px;
+    padding: 10px 0px;
 }
+
 footer nav ul li a {
     text-decoration: none;
     color: white;
     font-family: descricao;
+}
+
+#direitos {
+    width: 28%;
+}
+
+#direitos p {
+    font-family: descricao;
+    margin-bottom: 10px;
+    color: white;
+}
+
+#direitos a {
+    text-decoration: none;
+    font-family: descricao;
+    color: #AEE3EF;
 }

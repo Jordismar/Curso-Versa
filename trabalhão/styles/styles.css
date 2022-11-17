@@ -61,9 +61,14 @@
 }
 
 #cabe nav ul li {
-    border-right: 2px solid rgba(255, 255, 255, 0.4);
+    border: 0px 2px solid rgba(255, 255, 255, 0.4);
     display: inline;
     padding: 10px 30px;
+    transition: border 2s;
+}
+
+#cabe nav ul li:hover {
+    border: 2px 0px solid rgba(255, 255, 255, 0.4);
 }
 
 #cabe nav ul li a {
@@ -389,7 +394,8 @@ footer {
     justify-content: space-evenly;
     padding: 70px 0px;
 }
-.um{
+
+.um {
     display: flex;
     width: 50%;
     justify-content: space-evenly;

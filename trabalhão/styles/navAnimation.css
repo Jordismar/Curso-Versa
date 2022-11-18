@@ -1,0 +1,241 @@
+
+/*=============================================*/
+#cabe nav ul li:nth-child(1)::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 2px;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.3;
+    transition: 0.3s ease-out all;
+}
+
+/*hover*/
+#cabe nav ul li:nth-child(1):hover::after {
+    height: 2px;
+    width: 100%;
+    transition: 0.3s ease-out all;
+}
+
+#cabe nav ul li:nth-child(1)::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 2px;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.3;
+    transition: 0.3s ease-out all;
+}
+
+/*hover*/
+#cabe nav ul li:nth-child(1):hover::before {
+    height: 2px;
+    width: 100%;
+    transition: 0.3s ease-out all;
+}
+
+/*=============================================*/
+/*=============================================*/
+#cabe nav ul li:nth-child(2)::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 2px;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.3;
+    transition: 0.3s ease-out all;
+}
+
+/*hover*/
+#cabe nav ul li:nth-child(2):hover::after {
+    height: 2px;
+    width: 100%;
+    transition: 0.3s ease-out all;
+}
+
+#cabe nav ul li:nth-child(2)::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 2px;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.3;
+    transition: 0.3s ease-out all;
+}
+
+/*hover*/
+#cabe nav ul li:nth-child(2):hover::before {
+    height: 2px;
+    width: 100%;
+    transition: 0.3s ease-out all;
+}
+
+/*=============================================*/
+/*=============================================*/
+#cabe nav ul li:nth-child(3)::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 2px;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.3;
+    transition: 0.3s ease-out all;
+}
+
+/*hover*/
+#cabe nav ul li:nth-child(3):hover::after {
+    height: 2px;
+    width: 100%;
+    transition: 0.3s ease-out all;
+}
+
+#cabe nav ul li:nth-child(3)::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 2px;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.3;
+    transition: 0.3s ease-out all;
+}
+
+/*hover*/
+#cabe nav ul li:nth-child(3):hover::before {
+    height: 2px;
+    width: 100%;
+    transition: 0.3s ease-out all;
+}
+
+/*=============================================*/
+/*=============================================*/
+#cabe nav ul li:nth-child(4)::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 2px;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.3;
+    transition: 0.3s ease-out all;
+}
+
+/*hover*/
+#cabe nav ul li:nth-child(4):hover::after {
+    height: 2px;
+    width: 100%;
+    transition: 0.3s ease-out all;
+}
+
+#cabe nav ul li:nth-child(4)::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 2px;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.3;
+    transition: 0.3s ease-out all;
+}
+
+/*hover*/
+#cabe nav ul li:nth-child(4):hover::before {
+    height: 2px;
+    width: 100%;
+    transition: 0.3s ease-out all;
+}
+
+/*=============================================*/
+/*=============================================*/
+#cabe nav ul li:nth-child(5)::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 2px;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.3;
+    transition: 0.3s ease-out all;
+}
+
+/*hover*/
+#cabe nav ul li:nth-child(5):hover::after {
+    height: 2px;
+    width: 100%;
+    transition: 0.3s ease-out all;
+}
+
+#cabe nav ul li:nth-child(5)::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 2px;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.3;
+    transition: 0.3s ease-out all;
+}
+
+/*hover*/
+#cabe nav ul li:nth-child(5):hover::before {
+    height: 2px;
+    width: 100%;
+    transition: 0.3s ease-out all;
+}
+
+/*=============================================*/
+/*=============================================*/
+#cabe nav ul li:nth-child(6)::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 2px;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.3;
+    transition: 0.3s ease-out all;
+}
+
+/*hover*/
+#cabe nav ul li:nth-child(6):hover::after {
+    height: 2px;
+    width: 100%;
+    transition: 0.3s ease-out all;
+}
+
+#cabe nav ul li:nth-child(6)::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 2px;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.3;
+    transition: 0.3s ease-out all;
+}
+
+/*hover*/
+#cabe nav ul li:nth-child(6):hover::before {
+    height: 2px;
+    width: 100%;
+    transition: 0.3s ease-out all;
+}
+
+/*=============================================*/
